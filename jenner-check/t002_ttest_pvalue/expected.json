@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-13T08:54:45.636237Z",
+  "_captured_run_id": "r_5543ade695344a55823177b74fc6434b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: ODS OUTPUT: TTESTS -> ttest_results_Z4",
+    "NOTE: ODS OUTPUT: TTESTS -> ttest_results_Z5",
+    "NOTE: Wrote con_pvalue (6 rows, 3 columns).",
+    "NOTE: PROC PRINT completed: 6 observations printed, 3 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

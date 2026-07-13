@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-07-13T08:53:12.099812Z",
+  "_captured_run_id": "r_9375bbdc682e483ea5b17f6149628ae1",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote truth (100 rows, 10 columns).",
+    "Distribution: BINOMIAL",
+    "Link Function: IDENTITY",
+    "Model fitted successfully with 100 observations",
+    "PROC GENMOD: Emitting ODS OUTPUT datasets (1 destination(s))"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

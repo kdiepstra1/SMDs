@@ -1,0 +1,27 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA truth
+
+
+NOTE: Wrote truth (100 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.03 seconds
+  cpu   0.03 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_x_y.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC GENMOD data=truth
+
+NOTE: PROC GENMOD using R wrapper
+NOTE: 
+NOTE: Response Variable: Y
+NOTE: Distribution: BINOMIAL
+NOTE: Link Function: IDENTITY
+NOTE: Number of Observations: 100
+NOTE:   Model fitted successfully with 100 observations
+NOTE: ODS plot written: genmod_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: genmod_residual_histogram_panel.spec.json
+NOTE: ODS plot written: genmod_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: genmod_qq_plot.spec.json
+NOTE: PROC GENMOD ODS Graphics generated.
+NOTE: PROC GENMOD: Emitting ODS OUTPUT datasets (1 destination(s))

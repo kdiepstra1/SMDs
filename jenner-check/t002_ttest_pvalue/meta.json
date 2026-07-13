@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_ttest_pvalue",
+  "source_file": "Diepstra.SMD exercise with estimating equations_11Mar26.sas",
+  "source_blob_sha": "561bfa9cfe0e95aeac1942596db659bc78455455",
+  "source_commit": "26beb373189f4d1c34f6d339643d4c905ae30adc",
+  "notes": "The %pvalue2 macro: per-replicate pooled two-sample t-test p-value for each continuous covariate (Z4, Z5), driven by a %scan/%countw loop, using BY-replicate PROC TTEST with ODS OUTPUT of the TTESTS table, then stacked via ttest_: wildcard. Macro body and PROC options are the author's, unchanged. Only adaptation: a small inline simulate dataset (3 replicates x 40 obs) generated with the same call streaminit + rand draws as the upstream simulation step, so the macro runs self-contained; obs=100 cap in autoexec keeps the captured run small."
+}

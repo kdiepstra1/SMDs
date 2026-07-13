@@ -1,0 +1,44 @@
+                                                   The FREQ Procedure
+
+Table of X by Y
+
+X |         0 |         1 |      Total
+--+-----------+-----------+-----------
+0 |        29 |        23 |         52
+  |     29.00 |     23.00 |      52.00
+  |     55.77 |     44.23 |     100.00
+  |     52.73 |     51.11 |      52.00
+--+-----------+-----------+-----------
+1 |        26 |        22 |         48
+  |     26.00 |     22.00 |      48.00
+  |     54.17 |     45.83 |     100.00
+  |     47.27 |     48.89 |      48.00
+--+-----------+-----------+-----------
+Total |        55 |        45 |        100
+
+
+      The GENMOD Procedure      
+       Model Information        
+
+Item                       Value
+----------------------  --------
+Response Variable              Y
+Distribution            binomial
+Link Function           identity
+Number of Observations       100
+
+   Analysis of Maximum Likelihood Parameter Estimates   
+
+Parameter    Estimate  Std Error  Chi-Square  Pr > ChiSq
+-----------  --------  ---------  ----------  ----------
+(Intercept)    0.4423     0.0689     41.2414      <.0001
+X1             0.0160     0.0996      0.0259      0.8721
+
+Criteria for Assessing Goodness of Fit
+
+Criterion          Value
+--------------  --------
+Deviance        137.6019
+Log Likelihood  -68.8009
+AIC             141.6019
+BIC             146.8122
