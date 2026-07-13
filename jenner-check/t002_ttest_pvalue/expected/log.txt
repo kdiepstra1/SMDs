@@ -1,0 +1,73 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA simulate
+
+
+NOTE: Wrote simulate (100 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=simulate
+
+NOTE: Read 100 rows from simulate.
+NOTE: Wrote simulate (100 rows, 5 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC TTEST data=simulate
+
+NOTE: ODS OUTPUT: TTESTS -> ttest_results_Z4
+NOTE: BY Group: replicate=1.0
+NOTE: ODS plot written: ttest_summary.spec.json
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: BY Group: replicate=2.0
+NOTE: ODS plot written: ttest_summary.spec.json
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: BY Group: replicate=3.0
+NOTE: ODS plot written: ttest_summary.spec.json
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: PROC TTEST statement used.
+NOTE: DATA ttest_results_Z4
+
+
+NOTE: Read 6 rows from ttest_results_Z4.
+NOTE: Wrote ttest_results_Z4 (3 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=simulate
+
+NOTE: Read 100 rows from simulate.
+NOTE: Wrote simulate (100 rows, 5 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC TTEST data=simulate
+
+NOTE: ODS OUTPUT: TTESTS -> ttest_results_Z5
+NOTE: BY Group: replicate=1.0
+NOTE: ODS plot written: ttest_summary.spec.json
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: BY Group: replicate=2.0
+NOTE: ODS plot written: ttest_summary.spec.json
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: BY Group: replicate=3.0
+NOTE: ODS plot written: ttest_summary.spec.json
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: PROC TTEST statement used.
+NOTE: DATA ttest_results_Z5
+
+
+NOTE: Read 6 rows from ttest_results_Z5.
+NOTE: Wrote ttest_results_Z5 (3 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA con_pvalue
+
+
+NOTE: Read 3 rows from ttest_results_z4.
+NOTE: Read 6 rows from ttest_results_z5.
+NOTE: Wrote con_pvalue (6 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=con_pvalue
+
+NOTE: PROC PRINT completed: 6 observations printed, 3 variables

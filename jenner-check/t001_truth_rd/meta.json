@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_truth_rd",
+  "source_file": "Diepstra.SMD exercise with estimating equations_11Mar26.sas",
+  "source_blob_sha": "561bfa9cfe0e95aeac1942596db659bc78455455",
+  "source_commit": "26beb373189f4d1c34f6d339643d4c905ae30adc",
+  "notes": "Truth-population data-generation step (call streaminit + rand BERNOULLI/NORMAL, logistic outcome model), the X*Y cross-tab (PROC FREQ), and the identity-link binomial risk difference (PROC GENMOD). Only adaptation: &ntruth reduced from 20000000 to 5000 so the step runs self-contained; obs=100 cap in autoexec keeps the captured run small. Model form, seed, and PROC options are the author's, unchanged. Fully self-contained (all data generated in-step)."
+}
